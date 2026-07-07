@@ -1,0 +1,189 @@
+site_name: GreenFire documentation
+
+nav:
+        - Home: index.md
+        - Getting started: getting-started.md
+
+        - Configuration (frontend):
+                  - Overview: configuration/frontend/index.md
+                  - Localization:
+                            - Overview: configuration/frontend/localization.md
+                  - Theme:
+                            - Overview: configuration/frontend/theme.md
+                  - Backend:
+                            - Overview: configuration/frontend/backend.md
+                            - Crud: configuration/frontend/crudbackend.md
+                            - Wizard: configuration/frontend/wizardbackend.md
+                            - Dashboard: configuration/frontend/dashboardbackend.md
+                            - Report: configuration/frontend/reportbackend.md
+                            - Read-only: configuration/frontend/readonlybackend.md
+                            - Datagrid: configuration/frontend/datagridbackend.md
+                            - Select controls: configuration/frontend/selectcontrolsbackend.md
+                  - Dialogs:
+                            - Methods: configuration/frontend/dialogs.md
+                            - Parameters: configuration/frontend/dialogsParameters.md
+
+        - Configuration (backend):
+                  - Overview: configuration/backend/index.md
+
+        - Components:
+                  - Overview: components/index.md
+                  - Runtime context: components/runtimecontext.md
+                  - Dashboard runtime context: components/dashboardruntimecontext.md
+                  - Controls:
+                            - Overview: components/controls/index.md
+                            - Base control: components/controls/basecontrol.md
+                            - Input:
+                                      - Text: components/controls/textboxcontrol.md
+                                      - Number: components/controls/numbercontrol.md
+                                      - DateTime: components/controls/datetimecontrol.md
+                                      - Date: components/controls/datecontrol.md
+                                      - Time: components/controls/timecontrol.md
+                                      - Password: components/controls/passwordcontrol.md
+                                      - Email: components/controls/emailcontrol.md
+                                      - Url: components/controls/urlcontrol.md
+                            - Select:
+                                      - Lookup: components/controls/lookupcontrol.md
+                                      - Select: components/controls/selectcontrol.md
+                                      - Checkbox: components/controls/checkboxcontrol.md
+                                      - Checkbox list: components/controls/checkboxlistcontrol.md
+                            - Data:
+                                      - Image: components/controls/imagecontrol.md
+                                      - Datagrid: components/controls/datagridcontrol.md
+                                      - Collection grid: components/controls/collectiongridcontrol.md
+                            - Complex:
+                                      - Detail: components/controls/detailcontrol.md
+                                      - DynamicProcess RootLayout: components/controls/dynamicprocessrootlayoutcontrol.md
+                                      - RootLayout Json: components/controls/rootlayoutjsoncontrol.md
+                                      - Json changes: components/controls/jsonchangescontrol.md
+                                      - Json object viewer: components/controls/jsonobjectviewer.md
+                  - Contents:
+                            - Overview: components/contents/index.md
+                            - Label: components/contents/labelcontent.md
+                            - Divider: components/contents/dividercontent.md
+                  - Widgets:
+                            - Overview: components/widgets/index.md
+                            - Text: components/widgets/textwidget.md
+                            - Metric: components/widgets/metricwidget.md
+                            - Chart: components/widgets/chartwidget.md
+                            - Table: components/widgets/tablewidget.md
+                            - List: components/widgets/listwidget.md
+                  - Containers:
+                            - Layout:
+                                      - Overview: components/containers/layout/index.md
+                                      - RootLayout: components/containers/layout/rootlayoutcontainer.md
+                                      - Row: components/containers/layout/rownodecontainer.md
+                                      - Tabs container: components/containers/layout/tabscontainer.md
+                                      - Tab: components/containers/layout/tabcontainer.md
+                            - Dashboard:
+                                      - Overview: components/containers/dashboard/index.md
+                                      - DashboardLayout: components/containers/dashboard/dashboardlayoutcontainer.md
+                                      - DashboardRow: components/containers/dashboard/dashboardrownodecontainer.md
+                  - Processes:
+                            - Overview: components/processes/index.md
+                            - Crud: components/processes/crudprocess.md
+                            - Wizard: components/processes/wizard.md
+                            - Dashboard: components/processes/dashboard.md
+                            - Report: components/processes/reportprocess.md
+                            - Read-only: components/processes/readonlyprocess.md
+                  - Other components:
+                            - AppButton: components/other/appbutton.md
+                            - Dropdown: components/other/dropdown.md
+                  - NodeStates:
+                            - Overview: components/nodestates/index.md
+
+        - Definitions:
+                  - Overview: definitions/index.md
+                  - Registries: definitions/registries.md
+                  - Infrastructure:
+                            - Overview: definitions/infrastructure/index.md
+                            - Result pattern: definitions/infrastructure/result.md
+                            - Value objects: definitions/infrastructure/valueobjects.md
+                            - Entities: definitions/infrastructure/entities.md
+                            - Services: definitions/infrastructure/services.md
+                            - Repository (optional): definitions/infrastructure/repository.md
+                            - CrudDto: definitions/infrastructure/cruddto.md
+                  - Core concepts:
+                            - Using controls in layouts: definitions/coreconcepts/usingcontrolsinlayouts.md
+                            - ColumnDefinition: definitions/coreconcepts/columndefinition.md
+                            - ParametersMessage: definitions/coreconcepts/parametersmessage.md
+                  - Processes:
+                            - Overview: definitions/processes/index.md
+                            - CrudProcess: definitions/processes/crudprocess.md
+                            - Wizard: definitions/processes/wizard.md
+                            - Dashboard: definitions/processes/dashboard.md
+                            - ReportProcess: definitions/processes/reportprocess.md
+                            - ReadOnlyProcess: definitions/processes/readonlyprocess.md
+                  - Builders:
+                            - Overview: definitions/builders/index.md
+                            - Layout builders: definitions/builders/layoutbuilders.md
+                            - Conditions builders: definitions/builders/conditionsbuilders.md
+                            - Validations builder: definitions/builders/validationsbuilders.md
+                            - Select options: definitions/builders/selectoptionsbuilders.md
+                  - Providers:
+                            - Overview: definitions/providers/index.md
+                            - Lookup: definitions/providers/lookup.md
+                            - Select options: definitions/providers/selectoptions.md
+                            - Datagrid: definitions/providers/datagrid.md
+                            - Checkbox list: definitions/providers/checkboxlist.md
+                            - Widgets:
+                                      - Text: definitions/providers/widgets/textwidget.md
+                                      - Metric: definitions/providers/widgets/metricwidget.md
+                                      - Chart: definitions/providers/widgets/chartwidget.md
+                                      - Table: definitions/providers/widgets/tablewidget.md
+                                      - List: definitions/providers/widgets/listwidget.md
+                  - Integrations:
+                            - Scheduled tasks: definitions/integrations/scheduledtasks.md
+                            - Audit: definitions/integrations/audit.md
+                  - Additional features:
+                            - Localization: definitions/additionalfeatures/localization.md
+
+theme:
+        name: material
+
+        palette:
+                - scheme: default
+                  primary: green
+                  accent: green
+                  toggle:
+                          icon: material/weather-night
+                          name: Dark mode
+
+                - scheme: slate
+                  primary: green
+                  accent: green
+                  toggle:
+                          icon: material/weather-sunny
+                          name: Light mode
+
+        features:
+                - navigation.tabs
+                - navigation.sections
+                - navigation.expand
+                - content.code.copy
+                - search.suggest
+                - search.highlight
+                - content.code.copy
+                - content.code.select
+                - content.code.annotate
+
+markdown_extensions:
+        - admonition
+        - pymdownx.details
+        - pymdownx.highlight:
+                  anchor_linenums: true
+                  line_spans: __span
+                  use_pygments: true
+                  pygments_lang_class: true
+        - pymdownx.superfences
+        - pymdownx.tabbed:
+                  alternate_style: true
+
+plugins:
+        - treeview
+
+extra:
+        generator: false
+
+extra_css:
+        - stylesheets/extra.css

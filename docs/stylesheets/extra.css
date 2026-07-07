@@ -1,0 +1,12 @@
+.md-typeset pre {
+    max-height: 500px;
+    overflow: auto;
+}
+
+.md-footer {
+    display: none;
+}
+
+.md-nav__item--nested>.md-nav__link {
+    color: #2196f3 !important;
+}
