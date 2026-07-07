@@ -43,7 +43,7 @@ mkdocs serve
 
 The documentation will be available at:
 
-```
+```text
 http://127.0.0.1:8000
 ```
 
