@@ -129,13 +129,16 @@ public class LocalizationService(IGreenFireDictionaryService greenFireDictionary
         return Format(language, split[0], [.. split.Skip(1).Cast<object?>()]);
     }
 
-    public string TranslateTermOrValue(string language, object? value)
+    public string TranslateTermOrValue(string language, object? value, object[]? parameters = null)
     {
         if (value is null)
             return string.Empty;
 
         if (value is not string text)
             return value.ToString()!;
+
+        if (parameters is not null && parameters.Length > 0)
+            return Format(language, text, parameters);
 
         if (!text.StartsWith("@@"))
             return Translate(language, text);

@@ -58,9 +58,12 @@ const translateValue = (value: any) => {
     return format(split[0], split.slice(1));
 };
 
-const translateTermOrValue = (key: any) => {
+const translateTermOrValue = (key: any, params?: any[]) => {
     if (typeof key !== "string")
         return key;
+
+    if (params)
+        return format(key, params);
 
     if (!key?.startsWith("@@"))
         return translate(key);
