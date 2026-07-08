@@ -33,6 +33,7 @@ Install the required dependencies:
 
 ```bash
 pip install mkdocs-material
+pip install mkdocs-treeview
 ```
 
 Start the local documentation server:
