@@ -2,6 +2,8 @@
 
 Official documentation for **GreenFire**, a framework designed to simplify the creation of business applications by providing reusable processes, layouts, controls, widgets, and infrastructure while remaining highly extensible and technology-agnostic.
 
+The documentation is deployed in https://dlukknight.github.io/GreenFire.docs/
+
 This repository contains the complete documentation website, including guides, API references, concepts, tutorials, and examples.
 
 ## Contents
