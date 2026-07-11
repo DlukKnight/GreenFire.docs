@@ -10,6 +10,7 @@ nav:
                             - Overview: configuration/frontend/localization.md
                   - Theme:
                             - Overview: configuration/frontend/theme.md
+                            - Definitions: configuration/frontend/themedefinitions.md
                   - Backend:
                             - Overview: configuration/frontend/backend.md
                             - Crud: configuration/frontend/crudbackend.md
